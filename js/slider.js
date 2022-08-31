@@ -92,3 +92,14 @@ function handleTouchMove(event){
 
 });
 
+
+$('.slider__wrapper').slick({
+	infinite: true,
+	dots:true,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	prevArrow:
+	'<img class="arrow  arrow__left" src="img/slider/arrow-left.svg" alt="arrow"/>',
+ nextArrow:
+	'<img class="arrow  arrow__right" src="img/slider/arrow-right.svg" alt="arrow"/>',
+ });
