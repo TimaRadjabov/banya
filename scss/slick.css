@@ -131,18 +131,15 @@
     transform: translateY(-50%);
     z-index: 5;
 }
-.slick-dots{
-    display: flex;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-.slick-dots li button {
-    width: 201px;
-    height: 2px;
-    text-indent: -9999px;
-    overflow:hidden;
-    display: flex;
-}
-.slick-dots .slick-active button{
-    background: #FB9E14;
+@media (max-width: 1023px) {
+    .arrow__left {
+        left: -6%;
+        top: 41%;
+        width: 23px;
+    }
+      .arrow__right {
+        right: -6%;
+        top: 41%;
+        width: 23px;
+    }
 }
